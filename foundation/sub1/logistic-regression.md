@@ -7,3 +7,12 @@ Logistic regression is a learning algorithm used in a supervised learning proble
 Given an image represented by a feature vector 𝑥, the algorithm will evaluate the probability of a cat being in that image.
 
 
+$$
+Given \ x, \hat{y} = P(y = 1 | x), where \  0 \leq \hat{y} \leq 1 
+$$
+
+
+
+
+$$x = y$$
+
