@@ -18,6 +18,7 @@ $$
 * The output: $$ \hat{y} = \sigma(wT_x + b)$$
 * Sigmoid function: $$s = \sigma(wT_x + b) = \sigma(z)= \frac{1}{1 + e^{-z}}$$
 
+![](/assets/Snip20180126_8.png)
 
 
 
