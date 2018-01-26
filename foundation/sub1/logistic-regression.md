@@ -12,7 +12,3 @@ Given \ x, \hat{y} = P(y = 1 | x), where \  0 \leq \hat{y} \leq 1
 $$
 
 
-
-
-$$x = y$$
-
