@@ -4,6 +4,7 @@ Logistic regression is a learning algorithm used in a supervised learning proble
 
 ## Eg. Cat vs No - cat
 
+
 Given an image represented by a feature vector 𝑥, the algorithm will evaluate the probability of a cat being in that image.
 
 
