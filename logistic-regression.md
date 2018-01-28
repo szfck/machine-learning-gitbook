@@ -16,7 +16,7 @@ $$
 * The training label: $$ y \in 0,1$$
 * The weights: $$w \in \mathbb{R}^{n_x}$$, where 𝑛𝑥 is the number of features
 * The threshold: $$b \in \mathbb{R} $$
-* The output: $$ \hat{y} = \sigma\(wT\_x + b\)
+* The output: $$ \hat{y} = \sigma(wT\_x + b)
   $$
 * Sigmoid function: $$s = \sigma(wT_x + b) = \sigma(z)= \frac{1}{1 + e^{-z}}$$
 
@@ -30,11 +30,17 @@ $$
 $$
 Given \ {(x^{(1)}, y^{(1)}), ..., (x^{(m)}, y^{(m)})}, we \ want \ \hat{y}^{(i)}   \approx y^{(i)}
 $$
-
-$$
-x^{(i)} \ is \ i-th \ training \ example
-$$
+$$x^{(i)}$$ is $$i$$ th training example
 
 
 
+### Loss\(error\) function:
+
+The loss function measures the discrepancy between the prediction $$\hat{y}^{(i)}$$ and the desired output $${y}^{(i)}$$. In other words, the loss function computes the error for a single training example.
+
+![](/assets/Snip20180127_10.png)
+
+### Cost function
+
+The cost function is the average of the loss function of the entire training set. we are going to find the parameters $$w$$ and $$b$$ that minimize the overall cost function![](/assets/Snip20180127_11.png)
 
