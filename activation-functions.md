@@ -23,3 +23,8 @@ $$
 
 ![](/assets/Snip20180131_35.png)
 
+
+## why need non linear activation function
+
+It turns out that if you use a linear activation function, then no matter how many layers your neural network has, always doing is just a **linear activation function**. So you might as well not have any hidden layers. 
+
