@@ -6,4 +6,5 @@
 * [Gradient Descent](gradient-descent.md)
 * [vectorization](vectorization.md)
 * [Neural Network Representation](neural-network-representation.md)
+* [Activation functions](activation-functions.md)
 

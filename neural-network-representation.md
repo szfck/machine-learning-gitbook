@@ -9,3 +9,7 @@
 ## Vectorizing across multiple examples
 
 ![](/assets/Snip20180131_33.png)
+
+## Justification for vectorized implementation
+
+![](/assets/Snip20180131_34.png)

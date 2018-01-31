@@ -1,0 +1,25 @@
+## Activation functions
+
+If you're using binary classification, then the **sigmoid** function is very natural for the output layer. And the for all other units on **ReLU** (rectified linear unit), is increasingly the default choice of activation function.
+
+The derivative of the activation function, the slope of the activation function is very different from zero. So in practice using the **ReLU** activation function, your neural network will often learn much faster than using the tanh or the sigmoid activation function. The main reason is that there is less of this effect of the slope of the function going to zero, which slows down learning.
+
+$$
+\sigma(z) = \frac{1}{e^z + e^{-z}}
+$$
+
+$$
+tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}
+$$
+
+
+$$
+ReLU(z) = max(0, z)
+$$
+
+$$
+Leaky ReLU = max(0.01z, z)
+$$
+
+![](/assets/Snip20180131_35.png)
+
