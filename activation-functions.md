@@ -5,7 +5,7 @@ If you're using binary classification, then the **sigmoid** function is very nat
 The derivative of the activation function, the slope of the activation function is very different from zero. So in practice using the **ReLU** activation function, your neural network will often learn much faster than using the tanh or the sigmoid activation function. The main reason is that there is less of this effect of the slope of the function going to zero, which slows down learning.
 
 $$
-\sigma(z) = \frac{1}{e^z + e^{-z}}
+\sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
 $$
