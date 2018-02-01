@@ -7,4 +7,5 @@
 * [vectorization](vectorization.md)
 * [Neural Network Representation](neural-network-representation.md)
 * [Activation functions](activation-functions.md)
+* [Bayes rule](bayes-rule.md)
 

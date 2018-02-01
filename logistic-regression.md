@@ -1,3 +1,22 @@
+## Linear Regression
+
+Given input/output pairs $$x, r$$
+
+Given $$x$$, predict $$r$$ **Least-squares** regression. Find line(linear function of $$x$$).
+
+Least Squares Linear Regression finds the linear function 
+$$
+g(x) = w_1x + w_0
+$$
+
+that minimizes squares error on $$X$$.
+
+Squared error of $$h$$ on $$X$$
+
+$$
+\frac{1}{N}\sum(r^t - h(x^t))^2
+$$
+
 # Logistic Regression
 
 Logistic regression is a learning algorithm used in a supervised learning problem when the output $$y$$ are all either zero or one. The goal of logistic regression is to minimize the error between its predictions and training data.
