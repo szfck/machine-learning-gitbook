@@ -29,7 +29,10 @@ $$
 =\sigma(z)(1 - \sigma(z))
 $$
 
+
+
 ### 2. forward propagation
+
 
 $$z^{[1]} = w^{[1]}X + b^{[1]}$$
 
@@ -39,7 +42,13 @@ $$z^{[2]} = w^{[2]}A^{[1]} + b^{[2]}$$
 
 $$A^{[2]} = g^{[2]}(z^{[2]}) = \sigma(z^{[2]})$$
 
-### 3. back propagation
+### 3. cost function of m examples
+$$
+J(w^{[1]}, b^{[1]}, w^{[2]}, b^{[2]}) = \frac{1}{m}\sum_{i = 1}^{m}L(\hat{y}^{(i)}, y^{(0)}) = -\frac{1}{m}\sum_{i = 1}^{m}[y^{(i)}log(\hat{y}^{(i)}) + (1 - y^{(i)})log(1 - \hat{y}^{(i)})]
+$$
+
+
+### 4. back propagation
 
 
 

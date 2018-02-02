@@ -62,4 +62,3 @@ The loss function measures the discrepancy between the prediction $$\hat{y}^{(i)
 ### Cost function
 
 The cost function is the average of the loss function of the entire training set. we are going to find the parameters $$w$$ and $$b$$ that minimize the overall cost function![](/assets/Snip20180127_11.png)
-
