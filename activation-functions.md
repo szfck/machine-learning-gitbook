@@ -28,3 +28,24 @@ $$
 
 It turns out that if you use a linear activation function, then no matter how many layers your neural network has, always doing is just a **linear activation function**. So you might as well not have any hidden layers. 
 
+
+## hyperparameters
+
+### Parameters
+
+$$ W^{[1]}, b^{[1]}, W^{[2]}, b^{[2]} ... $$
+
+### Hyperparameters
+
+- Learning rate $$\alpha$$
+- \#iterations
+- \#hidden layer $$L$$
+- \#hidden units $$n^{[1]}$$
+- choice of activation 
+
+
+
+
+
+
+
